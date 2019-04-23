@@ -604,4 +604,6 @@ user-select:all
         -ms-transition: all 0.2s ease-in-out;
 
         -o-transition: all 0.2s ease-in-out;
-
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
