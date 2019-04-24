@@ -1,0 +1,3 @@
+.buttonx { display: inline-flex; border-radius: 4px; cursor: pointer; border: double #eee; font-size: 13px; font-weight: 700; text-transform: uppercase; color: #FFF !important; background-color: #00a2ff ; margin: 5px; padding: 5px 20px; text-shadow: none; transition: all 1s }
+.buttonx:hover { color: #00a2ff !important; background: #fff !important; box-shadow: 0 0 18px 18px rgba(80, 80, 80, 0) }
+.button2x { display: inline-flex; border-radius: 4px; cursor: pointer; border: double #eee; font-size: 13px; font-weight: 700; text-transform: uppercase; color:
