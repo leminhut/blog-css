@@ -1,0 +1,3 @@
+table {margin:15px 0; font-family: arial, sans-serif; font-size:13px; border-collapse: collapse; width: 100%; padding-top:30px}
+td, th {border: 1px solid #eee; text-align: left; padding:8px 10px; font-size:16px}
+tr:nth-child(odd) {background: #F4F4F4;}
