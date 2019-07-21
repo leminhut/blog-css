@@ -510,6 +510,26 @@ padding: 15px 20px 15px 35px !important;
 color: #555 !important;
 user-select:all
 }
-
+.post-body h1 { font-size: 44px; line-height: 34px; margin: 10px 0 }
+.post-body h2 { font-size: 24px; line-height: 40px; margin: 10px 0 }
+.post-body h3 { font-size: 20px; line-height: 34px; margin: 10px 0 }
+.post-body h4 { font-size: 26px; line-height: 36px; margin: 10px 0 }
+.post-body h5 { font-size: 24px; line-height: 34px; margin: 10px 0 }
+.post-body h6 { font-size: 18px; line-height: 24px; margin: 10px 0 }
+.blog-pager, #blog-pager { border: 1px solid #e6e6e6; padding: 1em 0; margin: 0 }
+.main-wrapper { margin-right: 355px }  .sidebar-wrapper { display: block }
+@media (max-width: 1040px) {.main-wrappers { margin-right: 315px } .sidebar-wrappers { width: 400px;float:center } } 
+@media (max-width: 850px) {.main-wrapper { margin-right: 0 } .sidebar-wrapper { float:none; margin: 0 auto } }
+ 
+#related-article i, .panel{background-image: -webkit-repeating-linear-gradient(135deg, #eaeaea, #eaeaea 1px, transparent 2px, transparent 2px, #eaeaea, #eaeaea 3px); background-image: -moz-repeating-linear-gradient(135deg, #eaeaea, #eaeaea 1px, transparent 2px, transparent 2px, #eaeaea, #eaeaea 3px); background-image: -o-repeating-linear-gradient(135deg, #eaeaea, #eaeaea 1px, transparent 2px, transparent 2px, #eaeaea, #eaeaea 3px); background-image: repeating-linear-gradient(135deg, #eaeaea, #eaeaea 1px, transparent 2px, transparent 2px, #eaeaea, #eaeaea 3px); -webkit-background-size: 4px 4px; -moz-background-size: 4px 4px; background-size: 4px 4px;
+display:block; margin:3px 0 14px; height:12px; width:100%; position:relative;}
+#related-article h4{background:#fff; top:-6px; padding-right:2%; font-style:normal; font-size:18px; margin:0 0 25px; font-weight:600; position:absolute}     #related-article{margin:15px 0}  .bimb{position:relative;height:160px}
+#related-article ul li{margin-right:2%; width:32%; display:inline-block}      #related-article ul li:last-child{margin:0}
+#related-article h3 a{margin:10px 0 0; color:#606060; font-size:16px; line-height:20px; display:inline-table; transition:all .3s;}
+#related-article h3 a:hover{color: #358da1}  #related-article img{transition: all .3s ease-out; width: 100%; display: block; height: 100%}
+.fb-cmt{border:1px solid #e5e5e5;background:#f2f2f2;border-radius:10px;padding-top:10px;margin:5px 0 15px;font: 16px Roboto}
+@media (max-width: 1050px) and (min-width:850px){.bimb{height:120px}}@media (max-width:720px) and (min-width:580px){.bimb{height:130px}}
+@media (max-width:580px) and (min-width:420px){#related-article ul li{width:48%;margin-right:4%}#related-article h3 a{margin:3px 0 10px}}
+@media (max-width:420px){#related-article ul li{width:100%;margin:5px 0}#related-article h3 a{margin:3px 0 10px} #related-article{margin-top:20px}}
 
 .fbe-icon { text-align: center } .fbe-icon svg { width: 50px; height: 50px } .fbe-text { text-align: center; font-size: 17px; color: #666 } .fbe { margin-bottom: 20px; padding-bottom: 25px; border-bottom: 1px solid #ccc } .fbe form { margin-top: 20px; padding: 0; border: 1px solid #ccc; border-radius: 50px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; width: 100%; -webkit-box-sizing: border-box; box-sizing: border-box; position: relative } .fbe form::before { content: ''; display: inline-block; position: relative; top: 7px; left: 15px; width: 20px; height: 20px; background: url("data:image/svg+xml,<svg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'><path d='M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z' fill='%23717171'></path></svg>") no-repeat } .fbe form .fbe-address { border: 0; outline: 0; font-size: 15px; width: calc(100% - 110px); background: transparent; display: block; padding-bottom: 2px } .fbe form .fbe-submit { display: inline-block; width: 35px; height: 35px; line-height: 45px; background: #008c5f; -webkit-box-sizing: border-box; box-sizing: border-box; padding-top: 2px; border: 0; border-radius: 0 50px 50px 0; cursor: pointer } .fbe-social { display: table; max-width: 100%; margin: auto } .fbe-social a { text-decoration: none; cursor: pointer } .fbe-social a:hover i { -webkit-transition: 0.3s ease; transition: 0.3s ease; -webkit-transform: scale(1.2) translateY(-10px); transform: scale(1.2) translateY(-10px) } .fbe-social a i { text-align: center; display: inline-block; border-radius: 30px; background: #ccc; margin: 0
